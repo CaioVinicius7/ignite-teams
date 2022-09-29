@@ -1,3 +1,4 @@
+import { StatusBar } from "react-native";
 import { ThemeProvider } from "styled-components";
 import {
   useFonts,
@@ -6,9 +7,9 @@ import {
 } from "@expo-google-fonts/roboto";
 
 import theme from "@theme/index";
-import { Players } from "@screens/Players";
+import { Routes } from "@routes/index";
+
 import { Loader } from "@components/Loading";
-import { StatusBar } from "react-native";
 
 export default function App() {
   const [fontLoaded] = useFonts({
@@ -23,7 +24,7 @@ export default function App() {
         backgroundColor="transparent"
         translucent
       />
-      {fontLoaded ? <Players /> : <Loader />}
+      {fontLoaded ? <Routes /> : <Loader />}
     </ThemeProvider>
   );
 }

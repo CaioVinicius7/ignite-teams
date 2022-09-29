@@ -1,4 +1,4 @@
-import styled from "styled-components/native";
+import styled, { css } from "styled-components/native";
 
 export const Container = styled.TextInput`
   flex: 1;
@@ -6,11 +6,13 @@ export const Container = styled.TextInput`
   min-height: 56px;
   max-height: 56px;
 
-  color: ${({ theme }) => theme.colors.white};
-  background-color: ${({ theme }) => theme.colors.gray_700};
+  ${({ theme }) => css`
+    color: ${theme.colors.white};
+    background-color: ${theme.colors.gray_700};
 
-  font-size: ${({ theme }) => theme.font_size.MD}px;
-  font-family: ${({ theme }) => theme.font_family.regular};
+    font-size: ${theme.font_size.MD}px;
+    font-family: ${theme.font_family.regular};
+  `}
 
   border-radius: 6px;
   padding: 16px;

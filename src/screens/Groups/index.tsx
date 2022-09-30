@@ -19,9 +19,7 @@ export function Groups() {
   const navigation = useNavigation();
 
   function handleNewGroup() {
-    navigation.navigate("players", {
-      group: "Galera do Ignite"
-    });
+    navigation.navigate("new");
   }
 
   return (

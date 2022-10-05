@@ -9,7 +9,7 @@ import {
 import theme from "@theme/index";
 import { Routes } from "@routes/index";
 
-import { Loader } from "@components/Loading";
+import { Loading } from "@components/Loading";
 
 export default function App() {
   const [fontLoaded] = useFonts({
@@ -24,7 +24,7 @@ export default function App() {
         backgroundColor="transparent"
         translucent
       />
-      {fontLoaded ? <Routes /> : <Loader />}
+      {fontLoaded ? <Routes /> : <Loading />}
     </ThemeProvider>
   );
 }

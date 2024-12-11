@@ -32,7 +32,7 @@ Esse é o segundo projeto da trilha de react native do ignite de 2022 da [Rocket
 
 - Número de páginas: 3
 
-[Template no Figma](https://www.figma.com/file/veUDmkLW6YUFqxqokvtNJp/Ignite-Teams-(Community)?node-id=37%3A6)
+[Template no Figma](<https://www.figma.com/file/veUDmkLW6YUFqxqokvtNJp/Ignite-Teams-(Community)?node-id=37%3A6>)
 
 <br>
 
@@ -75,7 +75,7 @@ Obs: Após rodar o comando yarn start abra o app Expo Go em seu dispositivo fís
 
 ---
 
-<a href="https://www.facebook.com/caio.pereira.94695">
+<a href="https://www.linkedin.com/in/caio-vin%C3%ADcius-87a761200/">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/62827681?s=400&u=f0b18831e6690a901f956d637933b9ee2dca3104&v=4" width="100px;" alt=""/>
  <br>
  <h2><b>Caio Vinícius</b></h2></a>
